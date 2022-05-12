@@ -17,7 +17,7 @@ class CommunityMember implements Entity{
         this.phoneNumber = phoneNumber;
     }
 
-    getId():string {
+     getId():string {
         return this.email;
     }
 }

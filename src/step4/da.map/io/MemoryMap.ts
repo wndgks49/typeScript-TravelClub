@@ -18,7 +18,7 @@ class MemoryMap {
 
     static getInstance(): MemoryMap {
         //
-        if(! this.uniqueInstance){
+        if(this.uniqueInstance === undefined) {
             this.uniqueInstance = new MemoryMap();
         }
         return this.uniqueInstance;
